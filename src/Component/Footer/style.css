@@ -35,9 +35,10 @@ footer .icon svg:hover{
 
 
 footer{
-
-    font-size: 14px;
-        width: 80%;
+bottom: 1;
+    font-size: 11px;
+        width: 100%;
+        padding: 0 10px;
         text-align: justify;
 }
 
@@ -47,6 +48,12 @@ footer .icon {
 footer .icon svg:last-child{
 
     margin-right: 0px;
+}
+
+
+footer .icon svg{
+    width: 15px;
+ 
 }
 
 }

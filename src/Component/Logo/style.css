@@ -12,3 +12,11 @@ padding: 1px;
     margin-right: 2rem;
     margin-top: 1.8rem;
 }
+
+
+@media (min-width:315px)and (max-width:992px) {
+.logo img{
+width: 15%;
+}
+
+    }

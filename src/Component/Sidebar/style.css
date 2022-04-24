@@ -179,7 +179,7 @@ fill: var(--white);
     width: 100%;
     position: absolute;
     overflow-y: scroll;
-    z-index: 19999999999999999999999999999999;
+    z-index: 99999999;
 }
 
 .show .navItem{

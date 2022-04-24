@@ -71,6 +71,7 @@ width: 12%;
 {
 color: #fff;
 text-align: justify;
+line-break: anywhere;
 }
 .ourSupplies .rgba .box  hr{
     width: 7%;
@@ -96,6 +97,10 @@ text-align: justify;
 
 .ourSupplies .rgba .box  span{
 font-size: 14px;
+}
+
+.ourSupplies .rgba .box  p{
+    font-size: 15px;
 }
 
 .ourSupplies .rgba .box{
