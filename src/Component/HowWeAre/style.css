@@ -149,6 +149,23 @@ padding:  1rem 1rem;
 }
 }
 
+@media (min-width:993px) {
+.whoWeAre .content{
+    margin-top: 0;
+    margin-bottom: 10rem;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
 
 @media (min-width:1400px) {
 

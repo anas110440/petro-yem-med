@@ -164,6 +164,31 @@ bottom: 5%;
 }
 
 
+@media (min-width:993px) {
+.homePage .content{
+    margin: 0 auto;
+}
+    .homePage .content img{
+    margin-top: 2rem;
+    width: 70%;
+}
+.homePage .content .image,
+.homePage .content .rgba{
+    right: 50%;
+    bottom: 56%;
+    transform: translate(50%,44%);
+    width: 30%;
+    height: 75%;
+}
+.homePage .content .rgba .box{
+    height: auto;
+}
+
+.homePage .scroll{
+    bottom: 14%;
+}
+}
+
 @media (min-width:1400px) {
 
 .homePage .content .rgba .box h2{

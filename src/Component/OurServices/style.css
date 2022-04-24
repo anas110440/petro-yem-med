@@ -110,3 +110,18 @@ font-size: 13px;
 
 
 }
+
+@media (min-width:1200px) and (max-width:1400px) {
+.ourService .content .boxes .box {
+margin: 0 10px;
+height: 320px;
+}
+.ourService .content .boxes{
+    margin-bottom: 5rem;
+}
+
+.ourService .content .boxes .box .overlay .text{
+    font-weight: 300;
+}
+
+}

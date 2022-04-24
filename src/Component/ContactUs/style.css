@@ -6,13 +6,13 @@
     display: flex;
     justify-content: center;
     overflow-y: scroll;
-    padding: 20px 0;
+    padding-bottom: 20px;
 }
 .contactUs .content{
 display: block;
 width: 80%;
 margin: auto;
-margin-bottom: 7rem;
+margin-bottom: 10rem;
 }
 
 .contactUs .content h2{

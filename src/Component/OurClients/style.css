@@ -150,3 +150,12 @@ width: 47%!important;
 }
 
 
+@media (min-width:1200px) and (max-width:1400px) {
+.ourClients .boxes .box {
+height: 120px;
+}
+
+.ourClients button{
+    margin-bottom: 10rem;
+}
+}

@@ -236,8 +236,6 @@ width: 100%;
     padding: 10px 0 0 0 ;
     text-align: left;
     padding-left: 30px;
- 
-
 }
 .slider .navItem a.active svg{
     width: 15%;
@@ -268,3 +266,21 @@ width: 100%;
 }
 
 
+@media (min-width:1200px) and (max-width:1400px) {
+.slider.show{
+ width: 7%!important;
+}
+
+.slider .navItem a.active::after{
+    font-size: 13px;
+    font-weight: 400;
+}
+.hide .navItem a.active {
+width: 7%;
+}
+.slider .navItem a svg{
+    width: 20px!important;
+}
+
+
+}
