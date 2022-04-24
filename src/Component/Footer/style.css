@@ -1,0 +1,52 @@
+footer{
+    width: 100%;
+    font-size: 16px;
+    color: var(--gray4);
+    font-weight: 500;
+    position: absolute;
+    bottom: 2%;
+    right: 50%;
+    transform: translateX(50%);
+    text-align: center;
+    opacity: .5;
+    cursor: pointer;
+}
+footer:hover{
+    opacity: 1;
+}
+footer span{
+    color: var(--yellow);
+}
+footer .icon {
+    float: right;
+    margin-right: 3rem;
+}
+footer .icon svg{
+    width: 25px;
+    fill: var(--gray4);
+    margin-right: 5px;
+}
+footer .icon svg:hover{
+    fill: var(--gray2);
+    cursor: pointer;
+}
+
+@media (min-width:315px) and (max-width:992px) {
+
+
+footer{
+
+    font-size: 14px;
+        width: 80%;
+        text-align: justify;
+}
+
+footer .icon {
+    margin-right: 0rem;
+}
+footer .icon svg:last-child{
+
+    margin-right: 0px;
+}
+
+}

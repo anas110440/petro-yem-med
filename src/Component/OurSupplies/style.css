@@ -1,0 +1,156 @@
+.ourSupplies{
+    background: url('../../Images/BackgroundImage/ourSupplies.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+}
+.ourSupplies .logo{
+    position: absolute;
+    top: 1%;
+    right: 2%;
+width: 100%;
+background-color: unset;
+padding: 1px;
+}
+.ourSupplies .logo img{
+
+    margin-left: auto;
+    margin-right: 2rem;
+}
+.ourSupplies .rgba{
+    background-color: rgb(54 137 179 / 25%);
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+    padding: 4rem 0;
+
+
+}
+
+.ourSupplies .rgba .box{
+    width: 80%;
+    height: auto;
+    background-color:rgba(98 171 219 / 70%);
+    padding: 3rem 10rem;
+    position: relative;
+
+}
+.ourSupplies .rgba .box .top{
+width: 12%;
+    position: absolute;
+    left: 1%;
+    bottom:75% ;
+    fill: #ffffff80;
+
+}
+
+
+
+.ourSupplies .rgba .box  .botoom{
+    width: 12%;
+    position: absolute;
+    right: 2%;
+    top: 75%;
+
+    fill: #ffffff80 !important;
+    transform: rotateY(180deg);
+}
+
+.ourSupplies .rgba .box  h3,
+.ourSupplies .rgba .box  p,
+.ourSupplies .rgba .box  span
+
+{
+color: #fff;
+text-align: justify;
+}
+.ourSupplies .rgba .box  hr{
+    width: 7%;
+    height: 3px;
+    background: var(--yellow);
+    border-radius: 1px;
+    opacity: 1;
+}
+
+
+.ourSupplies .rgba .box  span{
+    font-size: 17px;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 400;
+    line-break: anywhere;
+
+}
+
+
+
+@media (min-width:315px) and (max-width:992px) {
+
+.ourSupplies .rgba .box  span{
+font-size: 14px;
+}
+
+.ourSupplies .rgba .box{
+    padding: 30px;
+}
+
+
+.ourSupplies .rgba .box .top{
+    left: 1%;
+    bottom:unset ;
+    top: 0;
+}
+.ourSupplies .rgba .box  .botoom{
+    right: 2%;
+    top: unset;
+    bottom: 0;
+}
+
+
+
+}
+
+@media (min-width:1400px) {
+
+    .ourSupplies .rgba .box  h3{
+    font-size: 2.5rem;
+    }
+    .ourSupplies .rgba .box  hr{
+     margin-bottom:4rem;
+     margin-top: 2rem;
+        }
+    .ourSupplies .rgba .box  p{
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+
+    .ourSupplies .rgba .box  span{
+    font-size: 22px;
+    margin-bottom: 4rem;
+    width: 100%;
+
+}
+
+
+.ourSupplies .rgba .box .top{
+    bottom: 88%;
+}
+.ourSupplies .rgba .box .botoom{
+    top: 80%;
+}
+
+
+.ourSupplies .rgba .box{
+padding: 3rem 12rem 0 12rem;
+
+}
+
+}

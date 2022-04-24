@@ -1,0 +1,11 @@
+export {default as ContactUs} from "./ContactUs/ContactUs";
+export {default as Footer} from "./Footer/Footer";
+export {default as Home} from "./Home/Home";
+export {default as HowWeAre} from "./HowWeAre/HowWeAre";
+export {default as Logo} from './Logo/Logo';
+export {default as OurClients} from "./OurClients/OurClients";
+export {default as OurProject} from "./OurProject/OurProject";
+export {default as OurServices} from "./OurServices/OurServices";
+export {default as OurSupplies} from "./OurSupplies/OurSupplies";
+export {default as Sidebar} from "./Sidebar/Sidebar";
+export {default as WhyUs} from "./WhyUs/WhyUs";

@@ -1,0 +1,270 @@
+.all{
+    padding: 0px 0;
+    width: 100%;
+    background-color: #f5f5fc;
+--bs-gutter-x:0!important
+}
+.home{
+    display: flex;
+    background-color: #fff;
+    min-height: 100vh;
+    max-height: 100vh;
+    width: 100%;
+
+    
+}
+.slider{
+    width: 1%;
+    min-height: 100vh;
+    max-height: 100vh;
+    padding: 5px 0;
+    background: var(--blue);
+    padding: 120px  0 0 0 ; 
+    overflow: hidden;
+    transition: all .4s ease-in-out;
+
+}
+
+.slider .open,
+.slider .close{
+position: absolute;
+top: 3%;
+left: 2%;
+width: 25px;
+height: 25px;
+z-index: 9999;
+}
+ .slider .close{
+    display: none;
+
+}
+.slider .open{
+    
+transform: rotate(90deg);
+}
+
+.slider .open svg{
+    stroke: var(--blue);
+    fill: var(--blue);
+    cursor: pointer;
+}
+.slider .close svg{
+    stroke: var(--white);
+    fill: var(--white);
+    cursor: pointer;
+}
+
+.slider.show {
+    width: 6%;
+}
+
+.slider .navItem{
+height: 100%;
+width: 100%;
+grid-template-columns: 200px;
+grid-template-rows: repeat(6, 1fr);
+padding: 0px 0 0px 0px;
+
+}
+.slider .navItem a{
+    margin: 0px 0;
+    height: 55px;
+    padding: 15px;
+    padding-left:30px ;
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 500;
+    font-size: 13px;
+    transition: all .1s ease-out;
+    display: block;
+}
+
+
+.show .navItem a{
+    border-left: 4px solid var(--blue2);
+
+  
+
+}
+
+.slider .navItem a:hover{
+    background: var(--blue2);
+}
+.hide .navItem a.active,
+.slider .navItem a.active{
+    background: var(--yellow);
+    border-color: var(--yellow);
+    border-radius: 0 3px 3px 0;
+    padding: 7px 20px 2px 0 ;
+    text-align: center;
+    
+}
+.hide .navItem a.active{
+    position: absolute;
+    width: 6%;
+    z-index: 1111111111111111111111;
+    text-align: center;
+}
+.show .navItem a.active {
+text-align: center;}
+
+
+.slider .navItem a.active svg{
+margin: auto;
+display: block;
+}
+
+
+.show .navItem a.active svg{
+    margin-right: 5px;
+    display: block !important;
+    margin: auto;
+  
+}
+.show .navItem a.active::after{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.slider .navItem .Home.active::after{
+    content: "Home";
+}
+
+.slider .navItem .HowWeAre.active::after{
+    content: "Who We Are";
+}
+
+.slider .navItem .OurServices.active::after{
+    content: "Our Services";
+}
+
+.slider .navItem .OurProject.active::after{
+    content: "Our Project";
+}
+
+.slider .navItem .OurSupplies.active::after{
+    content: "Our Supplies";
+}
+
+.slider .navItem .OurClients.active::after{
+    content: "Our Clients";
+}
+
+.slider .navItem .WhyUs.active::after{
+    content: "Why Us";
+}
+
+.slider .navItem .ContactUs.active::after{
+    content: "Contact Us";
+}
+
+
+
+
+.slider .navItem .googleForm{
+    border: none;
+    margin-top: 40%;
+    padding-left: 35px;
+}
+
+.slider .navItem a svg{
+width: 25px !important;
+fill: var(--white);
+}
+
+
+
+@media (min-width:315px)and (max-width:992px) {
+    .slider.show {
+    width: 100%;
+    position: absolute;
+    z-index: 19999999999999999999999999999999;
+}
+
+.show .navItem{
+    padding: 0;
+}
+.show .navItem a{
+    text-align: left;
+    width: auto;
+    height: 80px;
+    display: block;
+}
+.slider .navItem .googleForm{
+margin-top: 8%;
+}
+.show .navItem a svg{
+width: 15%;
+margin-bottom: 5px;
+}
+.show .navItem span
+{
+    
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 25px;
+    display: inline !important;
+
+}
+
+.slider{
+    width: 0%;
+}
+
+.slider .close{
+top: 3%;
+left: 7%;
+
+}
+.slider .open{
+    left: 7%;
+}
+
+
+.hide .navItem a.active{
+position: static;
+width: 100%;
+}
+
+
+.slider .navItem a.active{
+    background: var(--yellow);
+    border:unset;
+    position: static;
+    width: 50%;
+    border-radius: 0 0px 0px 0;
+    padding: 10px 0 0 0 ;
+    text-align: left;
+    padding-left: 30px;
+ 
+
+}
+.slider .navItem a.active svg{
+    width: 15%;
+    display: inline !important;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.slider .navItem a.active::after{
+    content: ""!important;
+
+}
+
+.slider .navItem a.active{
+    padding-top: 20px;
+    width: auto;
+
+}
+.slider .navItem hr{
+    display: block!important;
+    width: 80%;
+    margin: 2rem auto;
+    margin-left: 35px;
+    height: 2px;
+    background-color: var(--yellow);
+    opacity: .9;
+}
+
+}
+
+

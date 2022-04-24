@@ -1,0 +1,152 @@
+.ourClients{
+    background-color: var(--white2);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+    padding: 20px 0;
+}
+.ourClients .content{
+display: block;
+width: 80%;
+margin: auto;
+
+}
+.ourClients .content h2{
+    color: var(--gray1);
+    display: block;
+    font-weight: 500;
+}
+
+.ourClients .content p{
+    display: block;
+    font-weight: normal;
+    font-size: 18px;
+    color: var(--gray3);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.ourClients .boxes{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+
+.ourClients .boxes .box{
+    height: 150px;
+    background-color: #fff;
+    margin:15px;
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+    padding-top: 10px;
+    position: relative;
+}
+
+.ourClients .boxes .box img {
+    display: flex;
+    margin: auto;
+    margin-top: 2%;
+}
+.ourClients .boxes .box .img1 {width: 40%;}
+.ourClients .boxes .box .img2 {width: 35%; margin-top: 5%;}
+.ourClients .boxes .box .img3 {width: 33%;}
+.ourClients .boxes .box .img4 {width: 50%; height: 50%; margin-top: 10%;}
+.ourClients .boxes .box .img5 {width: 50%; margin-top: 2%;}
+.ourClients .boxes .box .img6 {width: 35%;}
+.ourClients .boxes .box .img7 {width: 25%;}
+
+.ourClients .boxes .box .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color:rgb(251 186 57 / 93%);;
+}
+
+
+.ourClients .boxes .box:hover .overlay {
+  opacity: 1;
+}
+
+.ourClients .boxes .box:hover .overlay .text {
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.ourClients .boxes.dflex{
+    width: 77%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.ourClients .boxes .box{
+width: 30%;
+}
+
+.ourClients button{
+    margin: auto;
+}
+
+
+@media (min-width:315px) and (max-width:992px) {
+.ourClients .content h2{
+   margin-bottom: 10px;
+   font-size: 1.5rem;
+}
+
+.ourClients .content p {
+   margin-bottom: 10px;
+   font-size: 13px;
+}
+
+
+.ourClients .boxes,
+.ourClients .boxes.dflex{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+}
+
+.ourClients .boxes .box,
+.ourClients .boxes.dflex .box{
+width: 47%;
+margin: 10px 10px 0px 0!important;
+height: 120px;
+ }
+.ourClients .boxes .box .img1 ,
+.ourClients .boxes .box .img2, 
+.ourClients .boxes .box .img3 ,
+.ourClients .boxes .box .img4 ,
+.ourClients .boxes .box .img5 ,
+.ourClients .boxes .box .img6 ,
+.ourClients .boxes .box .img7 
+{object-fit: contain; width: 120px; height: 100px;margin: 0 auto; }
+
+
+
+.ourClients button{
+width: 47%!important;
+
+}
+}
+
+

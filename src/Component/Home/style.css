@@ -1,0 +1,179 @@
+.homePage{
+        background-color: var(--white2);
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    overflow-y: scroll;
+    padding: 20px 0;
+    position: relative;
+}
+
+.homePage .content{
+display: block;
+width: 80%;
+margin: 2rem auto;
+
+}
+
+
+.homePage .content img{
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 4.5rem;
+}
+
+.homePage .content .image{
+    position: absolute;
+    right:  50%;
+  bottom: 54%;
+    transform: translate(50%,45%);
+    width: 30%;
+    height: 81%;
+    z-index: 1000;
+    object-fit: cover;
+}
+.homePage .content .rgba{
+   position: absolute;
+    right:  50%;
+ bottom: 54%;
+    transform: translate(50%,45%);
+    width: 30%;
+    height: 81%;
+    z-index: 1001;
+  background-color:rgba(98 171 219 / 40%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.homePage .content .rgba .box{
+    height: 40%;
+    width: 90%;
+    background-color: rgba(98 171 219 / 100%);
+    padding: 2rem;
+    text-align: center;
+}
+
+.homePage .content .rgba .box h2,
+.homePage .content .rgba .box p{
+    font-weight: 500;color: var(--white);
+}
+.homePage .content .rgba .box p{
+    font-size: 19px;
+}
+.homePage .content .rgba .box hr{
+        width: 25%;
+    height: 3px;
+    background: var(--yellow);
+    border-radius: 1px;
+    opacity: 1;
+    margin: 10px auto;
+}
+
+.homePage .content .rgba .box button{
+    margin-top: 1rem;
+    background-color: var(--white2)!important;
+    color: var(--yellow)!important;
+}
+
+.homePage .scroll{
+   width: 22px;
+   height: 45px;
+   border: 1px solid var(--gray4);
+   border-radius: 20px;
+   display: flex; 
+   position: absolute;
+   left: 50%;
+   bottom: 11%;
+   transform: translateX(-50%);
+   cursor: pointer;
+   z-index: 111111111111111;
+
+}
+
+.homePage .scroll .mouse{
+    width: 12px;
+    height: 12px;
+    background-color: var(--gray3);
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+    transition: all .4s ease;
+}
+
+
+
+.homePage .scroll:hover .mouse{
+    top: 65%;
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:992px) {
+    .homePage .content{
+width: 100%;}
+
+.homePage .content img{
+    width: 90%;
+}
+    .homePage .content {
+    position: relative;
+}
+
+.homePage .content .image,
+.homePage .content .rgba{
+    width: 50%;
+    height: 120%;
+}
+
+
+.homePage .content .rgba .box{
+    height: 80%;
+    width: 90%;
+    background-color: rgba(98 171 219 / 100%);
+    padding: 2rem;
+    overflow: hidden;
+    text-align: center;
+}
+
+.homePage .content .rgba .box h2{
+    font-size: 17px;
+}
+.homePage .content .rgba .box p{
+    font-size: 13px;
+}
+.homePage .content .rgba .box button{
+    font-size: 13px!important;
+}
+
+.homePage .scroll{
+bottom: 5%;
+}
+}
+
+
+@media (min-width:1400px) {
+
+.homePage .content .rgba .box h2{
+    font-size: 2.5rem;
+    margin-top: 0.5rem;
+}
+
+.homePage .content .rgba .box p{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+}
