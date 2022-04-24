@@ -7,10 +7,10 @@ function App() {
   return (
 <div className="App">
 <BrowserRouter>
-<Home />
 <Routes>
 
 <Route path='/' element={<Home />} />
+<Route path='/petro-yem-med' element={<Home />} />
 
 
 <Route path='/home' element={<Home />} />

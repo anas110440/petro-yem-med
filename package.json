@@ -1,7 +1,8 @@
 { "homepage": "http://anas110440.github.io/petro-yem-med",
   "name": "petro-yem-med",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.1.0-9",
     "@testing-library/jest-dom": "^5.16.3",
