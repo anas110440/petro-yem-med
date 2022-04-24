@@ -126,7 +126,7 @@ margin: 2rem auto;
 width: 100%;}
 
 .homePage .content img{
-    width: 90%;
+    width: 80%;
 }
     .homePage .content {
     position: relative;
@@ -134,32 +134,42 @@ width: 100%;}
 
 .homePage .content .image,
 .homePage .content .rgba{
-    width: 50%;
-    height: 120%;
+    width: 40%;
+    height: 40% !important;
+    bottom: 77%;
 }
 
 
 .homePage .content .rgba .box{
-    height: 80%;
     width: 90%;
     background-color: rgba(98 171 219 / 100%);
-    padding: 2rem;
+    padding: 1rem;
     overflow: hidden;
+    height: auto;
     text-align: center;
 }
 
 .homePage .content .rgba .box h2{
-    font-size: 17px;
+    font-size: 15px;
 }
 .homePage .content .rgba .box p{
-    font-size: 13px;
+    font-size: 12px!important;
+    font-weight: 300;
+    width: 100%;
+    text-align: justify;
+    line-break: anywhere;
 }
 .homePage .content .rgba .box button{
-    font-size: 13px!important;
+    font-size: 11px!important;
+    font-weight: 300!important;
+    width: 75%;
+    padding: 5px;
+    margin-top: 0;
 }
 
 .homePage .scroll{
-bottom: 5%;
+bottom: 30%;
+z-index: 1;
 }
 }
 

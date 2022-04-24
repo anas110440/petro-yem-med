@@ -97,19 +97,46 @@ display: block;
 
 
 
-@media (max-width:992px) {
+@media (max-width:577px) {
     .ourService .content .boxes .box{
-    width: 49%;
-
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
     }
-
+.ourService .content p{
+    margin-bottom: 2rem;
+}
     .ourService .content .boxes .box .overlay .text {
 font-size: 13px;
     }
-
+.ourService .content .boxes{
+    margin-bottom: 11rem;
+}
 
 
 }
+
+@media (min-width:578px) and (max-width:1200px) {
+    .ourService .content .boxes .box{
+    width: 45%;
+    margin: 10px;
+    height: auto;
+    }
+.ourService .content p{
+    margin-bottom: 3rem;
+}
+    .ourService .content .boxes .box .overlay .text {
+font-size: 13px;
+    }
+.ourService .content .boxes{
+    margin-bottom: 11rem;
+}
+
+
+}
+
+
+
 
 @media (min-width:1200px) and (max-width:1400px) {
 .ourService .content .boxes .box {

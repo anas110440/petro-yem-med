@@ -178,6 +178,7 @@ fill: var(--white);
     .slider.show {
     width: 100%;
     position: absolute;
+    overflow-y: scroll;
     z-index: 19999999999999999999999999999999;
 }
 

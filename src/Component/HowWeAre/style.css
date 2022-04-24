@@ -131,7 +131,14 @@ display: none;
 .whoWeAre .content .form .left
 {
     overflow-y: scroll;
+    height: 500px;
 }
+.whoWeAre .content .form .left p{
+    padding: 0;
+    line-height: 2;
+    font-size: 15px;
+}
+
 .whoWeAre .content .form .right .textf{
 overflow: hidden;
 }

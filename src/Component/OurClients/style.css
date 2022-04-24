@@ -128,7 +128,7 @@ width: 100%;
 
 .ourClients .boxes .box,
 .ourClients .boxes.dflex .box{
-width: 47%;
+width: 80%;
 margin: 10px 10px 0px 0!important;
 height: 120px;
  }
@@ -145,7 +145,7 @@ height: 120px;
 
 .ourClients button{
 width: 47%!important;
-
+margin-bottom: 8rem;
 }
 }
 
