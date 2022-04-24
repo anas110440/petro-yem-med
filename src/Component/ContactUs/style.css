@@ -1,12 +1,11 @@
 .contactUs{
     background-color: var(--white2);
     width: 100%;
-    height: auto;
-    min-height: 100vh;
-    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
     justify-content: center;
     overflow-y: scroll;
-    padding-bottom: 20px;
+    padding: 20px 0;
 }
 .contactUs .content{
 display: block;
@@ -173,74 +172,60 @@ width: 95%!important;
 }
 
 @media (min-width:315px) and (max-width:576px) {
-   
-.contactUs{
-    min-height: 1500px;
-    height: auto;
-}
-    .contactUs .content {
-        overflow-y: scroll;
-        margin-bottom: 11rem;
-    }
-    .contactUs .content .form .sendMessage .input-group.textarea1{
-    
-    width: 79%!important;
-    }
-.contactUs .content .form .contactInfo .bgc{
-    height: auto;
-    padding-bottom: 3.5rem;
-}
-    .contactUs .content .form .contactInfo
-.bgc span{
-    margin-bottom: 2.5rem;
-    
-}
+ 
     .contactUs .content .form{
-        flex-wrap: wrap;
-    border-radius: 8px;
-    width: 100%;
-    height: auto!important;
-    overflow-y: scroll;
+        display: flex;
+  flex-wrap: wrap;
+margin-bottom: 15rem;
+width: 100%;
 
-    }
-    .contactUs .content .form .sendMessage{
-           width: 100% !important;
-           margin-bottom: 18rem;
-           padding-bottom: 3rem;
-           height: 500px;
-           overflow-y: scroll;
-    
-    }
-    .contactUs .content .form .contactInfo{
-        width: 100%;
-    }
-    .contactUs .content .form .sendMessage form
+}
+
+.contactUs .content .form .sendMessage,
+.contactUs .content .form .contactInfo
+{
+    width: 100% !important;
+    height: 500px;
+}
+.contactUs .content .form .sendMessage{
+    padding-top: 0;
+}
+.contactUs .content .form .sendMessage form
 .form-control{
     width: 100%;
 }
     .contactUs .content .form .sendMessage .input-group{
-width: 80%;
+width: 100%;
 display: block;
 margin: 2rem auto;
 
 }
 
 .contactUs .content .form .sendMessage .input-group textarea{
-margin-bottom: 4rem;}
-
+margin-bottom: .5rem;}
+.contactUs .content .form .contactInfo .bgc button{
+    width: 70%;
+}
 
 
 .contactUs .content .form .sendMessage form button{
     right: 12%;
     font-size: 15px;
-    width: auto;
+    width: 70%;
     display: block;
     margin: auto;
+    position: static;
    
  
 }
 
+
+
+
+
+
 }
+
 
 
 
@@ -275,7 +260,8 @@ margin-bottom: 4rem;}
     .contactUs .content .form .contactInfo{
         width: 100%;
     }
-    .contactUs .content .form .sendMessage form
+
+.contactUs .content .form .sendMessage form
 .form-control{
     width: 100%;
 }
