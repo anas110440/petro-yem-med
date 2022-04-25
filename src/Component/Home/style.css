@@ -167,7 +167,6 @@ margin-top: 0;
     font-size: 13px!important;
     font-weight: 300;
     width: 100%;
-    line-break: anywhere;
 }
 .homePage .content .rgba .box button{
     font-size: 11px!important;
@@ -254,7 +253,6 @@ margin-top: 0;
     font-size: 13px!important;
     font-weight: 300;
     width: 100%;
-    line-break: anywhere;
 }
 .homePage .content .rgba .box button{
     font-size: 11px!important;
@@ -267,7 +265,7 @@ margin-top: 0;
 .homePage .scroll{
      width: 18px;
     height: 34px;
-bottom: 20%;
+bottom: 26%;
 z-index: 1;
 }
 .homePage .scroll .mouse {
