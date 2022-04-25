@@ -101,7 +101,7 @@ line-break: anywhere;
     height: 100vh;
     flex-wrap: wrap;
     justify-content: center;
-    overflow-y: scroll;
+    overflow: auto;
     padding: 20px 0;}
 
 
