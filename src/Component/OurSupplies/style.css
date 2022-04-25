@@ -4,8 +4,9 @@
     background-repeat: no-repeat;
     background-position-y: center;
     width: 100%;
-    height: auto;
+    overflow-y: scroll;
     min-height: 100vh;
+    height: auto;
 }
 .ourSupplies .logo{
     position: absolute;
@@ -94,6 +95,16 @@ line-break: anywhere;
 
 
 @media (min-width:315px) and (max-width:992px) {
+.ourSupplies .rgba{
+
+    width: 100%;
+    height: 100vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: scroll;
+    padding: 20px 0;}
+
+
 
 .ourSupplies .rgba .box  span{
 font-size: 14px;
@@ -105,6 +116,9 @@ font-size: 14px;
 
 .ourSupplies .rgba .box{
     padding: 30px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
 }
 
 
