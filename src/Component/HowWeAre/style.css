@@ -130,7 +130,6 @@ display: none;
 
 .whoWeAre .content .form .left
 {
-    overflow-y: scroll;
     height: 500px;
 }
 .whoWeAre .content .form .left p{
@@ -146,6 +145,7 @@ overflow: hidden;
 font-size: 14px;
 font-weight: 400;
 padding:  1rem 1rem;
+padding-bottom: 2rem;
 
 }
 
