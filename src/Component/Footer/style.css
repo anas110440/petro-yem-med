@@ -42,6 +42,7 @@ float: right;}
 .footer p{
 font-size: 12px;
 text-align: justify;
+align-items: start;
 }
 
 .footer .icon {
