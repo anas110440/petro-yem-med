@@ -136,7 +136,10 @@ display: none;
 .whoWeAre .content .form .left p{
     padding: 0;
     line-height: 2;
-    font-size: 15px;
+    font-size: 14px;
+    text-align: left;
+    line-break: auto;
+    margin-bottom: 20px;
 }
 
 .whoWeAre .content .form .right .textf{
