@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import Logo from '../Logo/Logo';
 import Footer from './../Footer/Footer';
 
-const Home = () => {
+const Home = ({hide}) => {
   return (
   <Sidebar>
     
@@ -14,7 +14,7 @@ const Home = () => {
     <div className='homePage'>
       <div className="content">
 
-      <img src={IMG} alt="" />
+      <img src={IMG} alt="" onMouseEnter={()=>hide()} />
 
       <img src={IMG} alt="" className='image' />
 

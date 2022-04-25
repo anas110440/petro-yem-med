@@ -23,12 +23,12 @@ import Footer from './../Footer/Footer';
 import Logo from './../Logo/Logo';
 
 
-const OurProject = () => {
+const OurProject = ({hide}) => {
   return (
     <Sidebar>
       <Logo />
 <div className="ourProject">
-<div className='content'>
+<div className='content' onMouseEnter={()=>hide()}>
 
         <h2 className='text-center'>
           OUR PROJECT

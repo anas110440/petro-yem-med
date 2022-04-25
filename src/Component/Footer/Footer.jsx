@@ -1,8 +1,22 @@
 import React from 'react'
 import './style.css'
 const Footer = () => {
+    const hide=()=>{
+      
+      var slider = document.getElementById('slider');
+      var close = document.getElementById('close');
+      var open = document.getElementById('open');
+
+        slider.classList.add('hide');
+        slider.classList.remove('show');
+
+        
+
+        close.style.display = "none"
+        open.style.display = "block"
+}
   return (
-    <footer>
+    <footer onMouseEnter={()=>hide()}>
 Copyright &copy; 2022 PETRO-YEM-MED - Designed &amp; Developed by <span> NERDO </span> for IT Multimedia Services
 <span className='icon'>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">

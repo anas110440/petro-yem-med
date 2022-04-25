@@ -33,7 +33,7 @@ const hide=()=>{
   return (
   <div className="row all">
   <div className="home col-12  "  >
-    <div className='slider hide' onMouseEnter={()=>show()} onMouseLeave={()=>hide()} id="slider">
+    <div className='slider hide' onMouseEnter={()=>show()}  id="slider">
 
 <p className="open" id='open' onTouchEnd={()=>show()} onClick={()=>show()}>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
@@ -184,7 +184,7 @@ const hide=()=>{
  
 </div>
  
- <div className="col">
+ <div className="col" >
 
                   <div className="col-12">
                     {children}</div>

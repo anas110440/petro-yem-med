@@ -10,12 +10,12 @@ import Img4 from './clients/Untitled-6.png'
 import Img5 from './clients/Untitled-7.png'
 import Img6 from './clients/Untitled-8.png'
 import Logo from '../Logo/Logo';
-const OurClients = () => {
+const OurClients = ({hide}) => {
   return (
     <Sidebar>
       <Logo />
 <div className="ourClients">
-<div className='content'>
+<div className='content' onMouseEnter={()=>hide()}>
 
         <h2 className='text-center'>
           Take a look at our clients

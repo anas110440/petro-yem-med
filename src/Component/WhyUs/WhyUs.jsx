@@ -9,7 +9,7 @@ import Img5 from './img/5.jpg'
 import Img6 from './img/6.png'
 import Footer from '../Footer/Footer';
 import Logo from '../Logo/Logo';
-const WhyUs = () => {
+const WhyUs = ({hide}) => {
   const [info1 , setInfo1] = useState(true)
   const [info2 , setInfo2] = useState(true)
   const [info3 , setInfo3] = useState(true)
@@ -34,7 +34,7 @@ const pic3 = ()=>{
     <Sidebar>
       <Logo />
 <div className="whyUs">
-        <div className='content'>
+        <div className='content' onMouseEnter={()=>hide()}>
 
         <h2 className='text-center'>
           WHY US !

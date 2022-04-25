@@ -3,12 +3,12 @@ import Sidebar from './../Sidebar/Sidebar';
 import './style.css'
 import Footer from './../Footer/Footer';
 import Logo from './../Logo/Logo';
-const ContactUs = () => {
+const ContactUs = ({hide}) => {
   return (
     <Sidebar>
       <Logo />
       <div className="contactUs">
-        <div className="content">
+        <div className="content" onMouseEnter={()=>hide()}>
           <h2 className='text-center'>
           CONTACT US
 

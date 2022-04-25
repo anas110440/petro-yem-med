@@ -9,12 +9,12 @@ import Img5 from "./image/5.png"
 import Img6 from "./image/6.png"
 import Footer from './../Footer/Footer';
 import Logo from '../Logo/Logo';
-const OurServices = () => {
+const OurServices = ({hide}) => {
   return (
     <Sidebar>
       <Logo />
       <div className="ourService">
-        <div className='content'>
+        <div className='content' onMouseEnter={()=>hide()}>
 
         <h2 className='text-center'>
           OUR SERVICES

@@ -3,12 +3,12 @@ import Sidebar from './../Sidebar/Sidebar';
 import './style.css'
 import Img from './image/aref 221.JPG'
 import Logo from './../Logo/Logo';
-const HowWeAre = () => {
+const HowWeAre = ({hide}) => {
   return (
     <Sidebar>
 <Logo />
     <div className="whoWeAre">
-      <div className='content'>
+      <div className='content'  onMouseEnter={()=>hide()}>
 
         <h2 className='text-center'>
           Who We Are !

@@ -3,17 +3,17 @@ import Sidebar from './../Sidebar/Sidebar';
 import './style.css'
 import Footer from './../Footer/Footer';
 import Logo from './../Logo/Logo';
-const OurSupplies = () => {
+const OurSupplies = ({hide}) => {
   return (
     <Sidebar>
 
       <div className="ourSupplies">
       <Logo />
-        <div className="rgba">
+        <div className="rgba " >
 
 
       
-          <div className="box">
+          <div className="box" onMouseEnter={()=>hide()}>
             <svg className='top' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path fill="#ffffffd6" d="M1.5,33.5V18c0-6.604,4.497-11.265,11-11.491v3.115c-4.421,1.371-5,5.181-5,8.376v0.5h9v15H1.5z"/>
             
         
