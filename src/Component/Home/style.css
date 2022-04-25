@@ -122,11 +122,22 @@ margin: 2rem auto;
 
 
 @media (max-width:992px) {
-    .homePage .content{
-width: 100%;}
+    .homePage{
+        justify-content: center;
+        align-items: center;
+    }
+.homePage .content{
+width: 100%;
+margin-top: 0;
+
+}
 
 .homePage .content img{
-    width: 80%;
+    width: 90%;
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%,50%);
 }
     .homePage .content {
     position: relative;
@@ -134,9 +145,11 @@ width: 100%;}
 
 .homePage .content .image,
 .homePage .content .rgba{
-    width: 40%;
-    height: 40% !important;
-    bottom: 77%;
+    width: 50%;
+    height: 50vh !important;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%,50%);    
 }
 
 
@@ -153,10 +166,9 @@ width: 100%;}
     font-size: 15px;
 }
 .homePage .content .rgba .box p{
-    font-size: 12px!important;
+    font-size: 13px!important;
     font-weight: 300;
     width: 100%;
-    text-align: justify;
     line-break: anywhere;
 }
 .homePage .content .rgba .box button{
