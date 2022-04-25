@@ -4,7 +4,6 @@
     background-repeat: no-repeat;
     background-position-y: center;
     width: 100%;
-    overflow-y: scroll;
     min-height: 100vh;
     height: auto;
 }
@@ -30,7 +29,6 @@ padding: 1px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    overflow-y: scroll;
     padding: 4rem 0;
 
 
@@ -102,7 +100,9 @@ line-break: anywhere;
     flex-wrap: wrap;
     justify-content: center;
     overflow: auto;
+    overflow: auto;
     padding: 20px 0;}
+
 
 
 
