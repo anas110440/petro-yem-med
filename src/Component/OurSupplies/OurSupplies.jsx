@@ -1,7 +1,6 @@
 import React from 'react'
 import Sidebar from './../Sidebar/Sidebar';
 import './style.css'
-import Footer from './../Footer/Footer';
 import Logo from './../Logo/Logo';
 const OurSupplies = ({hide}) => {
   return (
@@ -50,7 +49,6 @@ construction, enginerring and govermental bodies, both on a national &amp; regio
 
 
 
-<Footer />
         </div>
         
       </div>

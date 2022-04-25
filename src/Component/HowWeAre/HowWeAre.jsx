@@ -3,6 +3,7 @@ import Sidebar from './../Sidebar/Sidebar';
 import './style.css'
 import Img from './image/aref 221.JPG'
 import Logo from './../Logo/Logo';
+import Footer from './../Footer/Footer';
 const HowWeAre = ({hide}) => {
   return (
     <Sidebar>
@@ -59,7 +60,7 @@ const HowWeAre = ({hide}) => {
 
 
 
-
+<Footer />
         </div>
     </div>
 

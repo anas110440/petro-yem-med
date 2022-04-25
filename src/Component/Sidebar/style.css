@@ -16,7 +16,6 @@
 .slider{
     width: 1%;
     min-height: 100vh;
-    max-height: 100vh;
     padding: 5px 0;
     background: var(--blue);
     padding: 120px  0 0 0 ; 

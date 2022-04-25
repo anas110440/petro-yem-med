@@ -38,6 +38,7 @@ Get a Quote
 </div>
 
       </div>
+<Footer />
       </div>
     <Link to="/how-we-are">
       <div className="scroll">
@@ -48,7 +49,6 @@ Get a Quote
 
 
     </div>
-     <Footer />
   </Sidebar>    
   )
 }

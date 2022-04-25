@@ -86,9 +86,9 @@ const ContactUs = ({hide}) => {
 
 
           </div>
+<Footer />
         </div>
 
-<Footer />
       </div>
     </Sidebar>
   )

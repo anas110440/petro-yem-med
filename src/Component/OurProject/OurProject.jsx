@@ -201,6 +201,7 @@ const OurProject = ({hide}) => {
 
 
 
+<Footer/>
 
 </div>
 
@@ -209,7 +210,6 @@ const OurProject = ({hide}) => {
 
 </div>
 
-<Footer/>
 
 
         </div>

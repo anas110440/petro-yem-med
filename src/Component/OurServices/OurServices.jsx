@@ -170,8 +170,8 @@ c. Construction Survey.
 
 
         
-        </div>
         <Footer />
+        </div>
       </div>
     </Sidebar>
   )

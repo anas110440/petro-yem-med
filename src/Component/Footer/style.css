@@ -1,59 +1,77 @@
-footer{
+.footer{
+    height: 95%;
+    display: flex;
+    align-items: end;
     width: 100%;
     font-size: 16px;
     color: var(--gray4);
     font-weight: 500;
-    position: absolute;
-    bottom: 2%;
-    right: 50%;
-    transform: translateX(50%);
     text-align: center;
     opacity: .5;
+}
+.footer p{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
     cursor: pointer;
 }
-footer:hover{
+.footer:hover{
     opacity: 1;
 }
-footer span{
+.footer span{
     color: var(--yellow);
+    margin-inline: 7px ;
 }
-footer .icon {
-    float: right;
-    margin-right: 3rem;
-}
-footer .icon svg{
+
+.footer .icon {
+float: right;}
+.footer .icon svg{
     width: 25px;
     fill: var(--gray4);
     margin-right: 5px;
 }
-footer .icon svg:hover{
+.footer .icon svg:hover{
     fill: var(--gray2);
     cursor: pointer;
 }
 
-@media (min-width:315px) and (max-width:992px) {
 
+@media only screen and (max-width:600px) and (min-width: 315px) { 
 
-footer{
-bottom: 1%;
-    font-size: 11px;
-        width: 100%;
-        padding: 0 10px;
-        text-align: justify;
+.footer p{
+font-size: 12px;
+text-align: justify;
 }
 
-footer .icon {
-    margin-right: 0rem;
+.footer .icon {
+display: flex;
+justify-content: space-evenly;
+float: unset;
+margin: 0;
+margin-top: 5px;
 }
-footer .icon svg:last-child{
+.footer .icon svg{
+    width: 20px;
+}
 
-    margin-right: 0px;
 }
 
 
-footer .icon svg{
-    width: 15px;
- 
+@media only screen and (max-width:768px) and (min-width: 601px) { 
+.footer p{
+font-size: 15px;
+text-align: justify;
+}
+
+.footer .icon {
+display: flex;
+justify-content: space-evenly;
+float: unset;
+margin: 0;
+margin-top: 5px;
+}
+.footer .icon svg{
+    width: 30px;
 }
 
 }

@@ -1,5 +1,5 @@
 .homePage{
-        background-color: var(--white2);
+    background-color: var(--white2);
     width: 100%;
     min-height: 100vh;
     height: auto;
@@ -10,7 +10,6 @@
 display: block;
 width: 100%;
 margin:  auto;
-overflow-y: scroll;
 padding: 2rem;
 position: relative;
 height: 100vh;
@@ -57,6 +56,8 @@ height: 70%;
     width: 95%;
     background-color: rgba(98 171 219 / 100%);
     padding: 2rem;
+    min-height: 70%;
+    height: auto;
     text-align: center;
 }
 
@@ -65,7 +66,7 @@ height: 70%;
     font-weight: 500;color: var(--white);
 }
 .homePage .content .rgba .box p{
-    font-size: 19px;
+    font-size: 3vh;
 }
 .homePage .content .rgba .box hr{
         width: 25%;
@@ -115,6 +116,8 @@ height: 70%;
     top: 65%;
 
 }
+
+
 
 @media only screen and (max-width:600px) and (min-width: 315px) { 
 .homePage{
@@ -180,6 +183,21 @@ z-index: 1;
    
 }
 
+.homePage .footer p{
+font-size: 12px;
+text-align: justify;
+}
+
+.homePage .footer .icon {
+display: flex;
+justify-content: space-evenly;
+float: unset;
+margin: 0;
+margin-top: 5px;
+}
+.homePage .footer .icon svg{
+    width: 20px;
+}
  }
 
 @media only screen and (max-width:768px) and (min-width: 601px) { 
@@ -216,6 +234,23 @@ z-index: 1;
     margin-top: 0;
 }
 
+.homePage .footer p{
+font-size: 15px;
+text-align: justify;
+}
+
+.homePage .footer .icon {
+display: flex;
+justify-content: space-evenly;
+float: unset;
+margin: 0;
+margin-top: 5px;
+}
+.homePage .footer .icon svg{
+    width: 30px;
+}
+
+
   }
 
 @media only screen and (max-width:922px) and (min-width: 769px) { 
@@ -236,6 +271,8 @@ z-index: 1;
     bottom: 59%;
     transform: translate(50%,41%);    
 }
+
+
  }
 
 @media only screen and (max-width:1200px) and (min-width: 923px) { 

@@ -1,17 +1,19 @@
 .whyUs{
-    background-color: var(--white2);
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    overflow-y: scroll;
-    padding: 20px 0;
+background-color: var(--white2);
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+overflow-y: scroll;
+padding: 20px 0;
 }
 .whyUs .content{
 display: block;
 width: 80%;
+height: 100%;
+
 margin: auto;
-margin-bottom: 20rem;
+margin-bottom: 10rem;
 }
 
 .whyUs .content h2{
@@ -92,7 +94,8 @@ padding: 10.5rem 0 0 0 ;
     width: 100%;
     margin-top: 2rem;
     border-top: 1px solid var(--gray4);
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
 } 
 
 .whyUs .content .info .texts{
@@ -168,6 +171,11 @@ padding: 5rem 0 0 0 ;
     z-index: 9999;
     transform: translate(50%, 50%);
 }
+.whyUs .content .footer{
+    align-items: start;
+    margin-top: 1rem;
+}
+
 
 @media (max-width:576px) {
 

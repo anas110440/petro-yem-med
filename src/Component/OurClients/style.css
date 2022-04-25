@@ -3,6 +3,7 @@
     width: 100%;
     height: 100vh;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     padding: 20px 0;
@@ -34,6 +35,10 @@ align-items: center;
 justify-content: center;
 }
 
+.ourClients .footer {
+align-items: unset;
+margin-top: 2rem;
+}
 
 
 .ourClients .boxes .box{
@@ -157,7 +162,5 @@ margin-bottom: 8rem;
 height: 120px;
 }
 
-.ourClients button{
-    margin-bottom: 10rem;
-}
+
 }

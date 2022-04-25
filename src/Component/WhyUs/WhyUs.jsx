@@ -120,6 +120,8 @@ Healt &amp; Safety
 <img src={Img2} alt="" className='icon' />
 </div>
 </div>
+<Footer />
+
 </div>
 
 
@@ -145,6 +147,8 @@ Environment
 <img src={Img4} alt="" className='icon' />
 </div>
 </div>
+<Footer />
+
 </div>
 
 
@@ -171,6 +175,8 @@ Quality
 <img src={Img6} alt="" className='icon' />
 </div>
 </div>
+<Footer />
+
 </div>
 
 
@@ -178,7 +184,6 @@ Quality
         
 
 </div>
-<Footer />
 </div>
     </Sidebar>
   )
