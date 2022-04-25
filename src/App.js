@@ -22,11 +22,10 @@ function App() {
 <BrowserRouter>
 <Routes>
 
-<Route path='/' element={<Home hide={hide} />} />
+<Route path='/' exact element={<Home hide={hide} />} />
 <Route path='/petro-yem-med' element={<Home hide={hide} />} />
 
 
-<Route path='/home' element={<Home hide={hide} />} />
 <Route path='/how-we-are' element={<HowWeAre hide={hide} />} />
 <Route path='/ourservices' element={<OurServices hide={hide} />} />
 <Route path='/ourproject' element={<OurProject hide={hide} />} />
