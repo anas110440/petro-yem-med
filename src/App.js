@@ -1,7 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import {ContactUs  ,Footer,Home ,HowWeAre  ,OurClients,OurProject,OurServices, OurSupplies, WhyUs} from './Component/index';
-import Logo from './Component/Logo/Logo';
+import {ContactUs  ,Home ,HowWeAre  ,OurClients,OurProject,OurServices, OurSupplies, WhyUs} from './Component/index';
 
 function App() {
   return (
@@ -23,7 +22,6 @@ function App() {
 <Route path='/contactus' element={<ContactUs />} />
 </Routes>
 
-<Footer />
 </BrowserRouter>
 
         

@@ -4,6 +4,7 @@ import './style.css'
 import IMG from './image/DSC01386.jpg'
 import { Link } from 'react-router-dom';
 import Logo from '../Logo/Logo';
+import Footer from './../Footer/Footer';
 
 const Home = () => {
   return (
@@ -45,7 +46,9 @@ Get a Quote
       </div>
     </Link>
 
+
     </div>
+     <Footer />
   </Sidebar>    
   )
 }
