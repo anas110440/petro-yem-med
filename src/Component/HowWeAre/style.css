@@ -130,7 +130,8 @@ display: none;
 
 .whoWeAre .content .form .left
 {
-    height: 500px;
+    min-height: 500px;
+    height: auto;
 }
 .whoWeAre .content .form .left p{
     padding: 0;
