@@ -117,6 +117,9 @@ height: 70%;
 
 }
 
+.homePage .footer {
+height: 95%;
+}
 
 
 @media only screen and (max-width:600px) and (min-width: 315px) { 
@@ -198,6 +201,7 @@ margin-top: 5px;
 .homePage .footer .icon svg{
     width: 20px;
 }
+
  }
 
 @media only screen and (max-width:768px) and (min-width: 601px) { 

@@ -109,7 +109,11 @@ width: 30%;
 .ourClients button{
     margin: auto;
 }
-
+.ourClients  .footer{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    height: auto;
+}
 
 @media (min-width:315px) and (max-width:992px) {
     .ourClients{
@@ -152,7 +156,6 @@ height: 120px;
 
 .ourClients button{
 width: 47%!important;
-margin-bottom: 8rem;
 }
 }
 

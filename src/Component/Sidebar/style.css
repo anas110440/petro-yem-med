@@ -187,11 +187,13 @@ fill: var(--white);
 .show .navItem a{
     text-align: left;
     width: auto;
-    height: 80px;
+    height: 50px;
     display: block;
+    padding: 10px;
 }
 .slider .navItem .googleForm{
-margin-top: 8%;
+margin-top: 4%;
+padding-left: 15px;
 }
 .show .navItem a svg{
 width: 15%;
@@ -233,9 +235,8 @@ width: 100%;
     position: static;
     width: 50%;
     border-radius: 0 0px 0px 0;
-    padding: 10px 0 0 0 ;
     text-align: left;
-    padding-left: 30px;
+    padding-left: 15px;
 }
 .slider .navItem a.active svg{
     width: 15%;
@@ -249,14 +250,13 @@ width: 100%;
 }
 
 .slider .navItem a.active{
-    padding-top: 20px;
     width: auto;
 
 }
 .slider .navItem hr{
     display: block!important;
     width: 80%;
-    margin: 2rem auto;
+    margin: .5rem auto;
     margin-left: 35px;
     height: 2px;
     background-color: var(--yellow);
