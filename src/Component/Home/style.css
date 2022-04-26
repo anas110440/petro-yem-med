@@ -299,3 +299,37 @@ margin-top: 5px;
     transform: translate(50%,41%);    
 }
  }
+@media only screen and  (min-width: 1400px) { 
+.homePage .content .rgba .box{
+text-align: center;
+padding: 4rem 2rem;
+min-height: auto;
+}
+
+.homePage .content .rgba .box h2{
+    font-size: 5vh!important;
+    font-weight: 500;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.homePage .content .rgba .box hr{
+    height: 5px;
+    margin-bottom: 1rem;
+}
+
+    .homePage .content .rgba .box p{
+    font-size: 4vh!important;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+    .homePage .content .rgba .box button{
+    font-size: 3vh!important;
+    font-weight: 400;
+    width: 50%;
+    padding: .5rem;
+    text-decoration: none;
+}
+
+}

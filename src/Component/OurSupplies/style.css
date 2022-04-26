@@ -107,7 +107,8 @@ line-break: anywhere;
 
 
 .ourSupplies .rgba .box  span{
-font-size: 14px;
+font-size: 13px;
+font-weight: 300;
 }
 
 .ourSupplies .rgba .box  p{
@@ -171,5 +172,8 @@ font-size: 14px;
 padding: 3rem 12rem 0 12rem;
 
 }
+
+
+
 
 }

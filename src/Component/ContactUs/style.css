@@ -293,10 +293,10 @@ margin-bottom: 4rem;}
 
 @media (min-width:1400px) {
     .contactUs .content .form{
-    width: 70%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
-    height: 50vh;
+    height: 67vh;
     }
 .contactUs .content .form .contactInfo .bgc p{
     margin-bottom: 2rem;

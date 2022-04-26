@@ -20,7 +20,10 @@ const Footer = () => {
 <div className="footer">
   <p>
 
-  Copyright &copy; 2022 PETRO-YEM-MED - Designed &amp; Developed by <span> NERDO </span> for IT Multimedia Services
+  Copyright &copy; 2022 PETRO-YEM-MED <span className="dash">
+    -
+    </span> 
+     Designed &amp; Developed by <span> NERDO </span> for IT Multimedia Services
 
 <span className='icon'>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">

@@ -23,6 +23,7 @@
     margin-inline: 7px ;
 }
 
+
 .footer .icon {
 float: right;}
 .footer .icon svg{
@@ -43,8 +44,15 @@ float: right;}
 }
 .footer p{
 font-size: 12px;
-text-align: justify;
+text-align: center!important;
 align-items: start;
+}
+.footer .dash{
+    content: " ";
+    display: block
+}
+.footer br{
+    display: block;
 }
 
 .footer .icon {

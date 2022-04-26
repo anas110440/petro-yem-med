@@ -114,8 +114,13 @@ margin: 0;
 
 
 @media (max-width:992px) {
+    .whoWeAre .content{
+        width: 100%;
+    }
     .whoWeAre .content .form{
   flex-wrap: wrap;
+  width: 80%;
+  margin-inline: auto;
 
 }
 .whoWeAre .content .form .right .img .pos {

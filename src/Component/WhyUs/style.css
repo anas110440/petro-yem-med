@@ -178,6 +178,15 @@ padding: 5rem 0 0 0 ;
 
 
 @media (max-width:576px) {
+    .whyUs{
+        display: block;
+    }
+.whyUs .content {
+    height: auto;
+    margin-bottom: 0rem;
+    width: 95%;
+}
+
 
 .whyUs .content h2{
 font-size: 18px;
@@ -209,6 +218,7 @@ justify-content: space-evenly;
     width: 100%;
     flex-wrap: wrap;
     margin-top: 2rem;
+    margin-bottom: 0;
 
 }
 .whyUs .content .info .texts{
@@ -224,6 +234,10 @@ justify-content: space-evenly;
 }
 .whyUs .content .info .pic .box{
     height: auto;
+}
+.whyUs .content .info .footer{
+    margin-top: 2rem;
+    margin-bottom: 0;
 }
 }
 

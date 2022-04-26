@@ -98,6 +98,13 @@ display: block;
 
 
 @media (max-width:577px) {
+    .ourService .content{
+        width: 100%;
+    }
+    .ourService .content .boxes{
+        width: 80%;
+        margin-inline: auto;
+    }
     .ourService .content .boxes .box{
     width: 100%;
     height: auto;
@@ -110,6 +117,10 @@ display: block;
 font-size: 13px;
     }
 
+.ourService .content .boxes .box img{
+    height: auto;
+    object-fit: contain;
+}
 
 
 }
@@ -136,14 +147,19 @@ font-size: 13px;
 @media (min-width:1200px) {
 .ourService .content .boxes .box {
 margin: 0 10px;
-height: 320px;
-}
-.ourService .content .boxes{
-    margin-bottom: 5rem;
+height: 360px;
 }
 
+
 .ourService .content .boxes .box .overlay .text{
-    font-weight: 300;
+    font-size: 1.7vh;
 }
+.ourService .content .boxes .box img{
+    height: auto;
+}
+
+
+
+
 
 }
