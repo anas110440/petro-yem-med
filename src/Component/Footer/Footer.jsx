@@ -23,6 +23,7 @@ const Footer = () => {
   Copyright &copy; 2022 PETRO-YEM-MED <span className="dash">
     -
     </span> 
+    <br hidden />
      Designed &amp; Developed by <span> NERDO </span> for IT Multimedia Services
 
 <span className='icon'>

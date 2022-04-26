@@ -39,18 +39,19 @@ float: right;}
 
 @media only screen and (max-width:600px) and (min-width: 315px) { 
 .footer{
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     height: auto;
 }
 .footer p{
-font-size: 12px;
+font-size: 12px !important;
 text-align: center!important;
 align-items: start;
 }
 .footer .dash{
-    content: " ";
-    display: block
+    display: none
 }
+
+
 .footer br{
     display: block;
 }
