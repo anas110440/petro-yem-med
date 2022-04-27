@@ -1,19 +1,15 @@
 .whyUs{
 background-color: var(--white2);
 width: 100%;
-height: 100vh;
+min-height: 120vh;
 display: flex;
 justify-content: center;
-overflow-y: scroll;
 padding: 20px 0;
 }
 .whyUs .content{
 display: block;
 width: 80%;
-height: 100%;
-
 margin: auto;
-margin-bottom: 10rem;
 }
 
 .whyUs .content h2{
@@ -184,7 +180,7 @@ padding: 5rem 0 0 0 ;
 .whyUs .content {
     height: auto;
     margin-bottom: 0rem;
-    width: 95%;
+    width: 80%;
 }
 
 
@@ -223,8 +219,7 @@ justify-content: space-evenly;
 }
 .whyUs .content .info .texts{
     width: 100%;
-    height: 50vh;
-    overflow: scroll;
+
 }
 
 .whyUs .content .info .pic{
@@ -302,6 +297,13 @@ margin-bottom: 3rem;
 
 
 @media (min-width:1400px) {
+    .whyUs{
+background-color: var(--white2);
+width: 100%;
+min-height: 100vh;
+display: flex;
+
+}
 .whyUs .content .boxes .box,
 .whyUs .content .boxes .box .rgba
 {

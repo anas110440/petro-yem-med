@@ -6,56 +6,51 @@
 }
 .home{
     display: flex;
-    background-color: #fff;
-    min-height: 100vh;
-    max-height: 100vh;
+    background-color: var(--white2);
     width: 100%;
-
-    
 }
 .slider{
-    width: 1%;
+    width: 7%;
     min-height: 100vh;
     padding: 5px 0;
     background: var(--blue);
     padding: 120px  0 0 0 ; 
-    overflow: hidden;
     transition: all .4s ease-in-out;
-
+    display: flex;
+    height: 100%;
+    position: relative;
 }
 
-.slider .open,
-.slider .close{
-position: absolute;
+.open,
+ .close{
+position: fixed;
 top: 3%;
 left: 2.5%;
 width: 25px;
 height: 25px;
 z-index: 9999;
 }
- .slider .close{
-    display: none;
 
+
+  .close{
+    display: none;
 }
-.slider .open{
-    
+.open{
 transform: rotate(90deg);
 }
 
-.slider .open svg{
+.open svg{
     stroke: var(--blue);
     fill: var(--blue);
     cursor: pointer;
 }
-.slider .close svg{
+ .close svg{
     stroke: var(--white);
     fill: var(--white);
     cursor: pointer;
 }
 
-.slider.show {
-    width: 6%;
-}
+
 
 .slider .navItem{
 height: 100%;
@@ -63,7 +58,9 @@ width: 100%;
 grid-template-columns: 200px;
 grid-template-rows: repeat(6, 1fr);
 padding: 0px 0 0px 0px;
-
+position: fixed;
+  top: 15%;
+    left: 0;
 }
 .slider .navItem a{
     margin: 0px 0;
@@ -76,14 +73,13 @@ padding: 0px 0 0px 0px;
     font-size: 13px;
     transition: all .1s ease-out;
     display: block;
-}
-
-
-.show .navItem a{
-    border-left: 4px solid var(--blue2);
-
+    width: 7%;
   
+    }
 
+
+.slider .navItem a{
+border-left: 4px solid var(--blue2);
 }
 
 .slider .navItem a:hover{
@@ -92,20 +88,14 @@ padding: 0px 0 0px 0px;
 .hide .navItem a.active,
 .slider .navItem a.active{
     background: var(--yellow);
-    border-color: var(--yellow);
+    border-color: var(--white);
     border-radius: 0 3px 3px 0;
-    padding: 7px 20px 2px 0 ;
+    padding: 7px 10px 2px 0 ;
+    height: auto;
     text-align: center;
     
 }
-.hide .navItem a.active{
-    position: absolute;
-    width: 6%;
-    z-index: 1111111111111111111111;
-    text-align: center;
-}
-.show .navItem a.active {
-text-align: center;}
+
 
 
 .slider .navItem a.active svg{
@@ -114,7 +104,7 @@ display: block;
 }
 
 
-.show .navItem a.active svg{
+.slider .navItem a.active svg{
     margin-right: 5px;
     display: block !important;
     margin: auto;
@@ -162,8 +152,8 @@ display: block;
 
 .slider .navItem .googleForm{
     border: none;
-    margin-top: 40%;
-    padding-left: 35px;
+    margin-top: 2%;
+    padding-left: 33px;
 }
 
 .slider .navItem a svg{
@@ -174,15 +164,27 @@ fill: var(--white);
 
 
 @media (min-width:315px)and (max-width:992px) {
+
+    .slider{
+        width: 0%;
+        position: relative;
+    }
     .slider.show {
     width: 100%;
-    position: absolute;
+    position: fixed;
     overflow-y: scroll;
     z-index: 99999999;
+    display: block;
+}
+.slider .navItem{
+    position: static;
+    display: none;
+    
 }
 
 .show .navItem{
     padding: 0;
+    display: block;
 }
 .show .navItem a{
     text-align: left;
@@ -190,6 +192,10 @@ fill: var(--white);
     height: 50px;
     display: block;
     padding: 10px;
+}
+
+.slider.hide{
+    transition: none;
 }
 .slider .navItem .googleForm{
 margin-top: 4%;
@@ -209,17 +215,15 @@ margin-bottom: 5px;
 
 }
 
-.slider{
-    width: 0%;
-}
 
-.slider .close{
+ .close{
 top: 3%;
 left: 7%;
+z-index: 9999999999;
 
 }
-.slider .open{
-    left: 7%;
+.open{
+    left: 4%;
 }
 
 
@@ -284,4 +288,15 @@ width: 7%;
 }
 
 
+}
+
+
+
+@media only screen and  (min-width: 1380px) { 
+.slider{
+    width: 5%;
+}
+.slider .navItem a{
+width: 5%;
+}
 }

@@ -1,6 +1,4 @@
 import React from 'react'
-import Footer from '../Footer/Footer';
-import Sidebar from './../Sidebar/Sidebar';
 import './style.css'
 import Img from './clients/1.png'
 import Img1 from './clients/2.png'
@@ -9,13 +7,11 @@ import Img3 from './clients/Untitled-5.png'
 import Img4 from './clients/Untitled-6.png'
 import Img5 from './clients/Untitled-7.png'
 import Img6 from './clients/Untitled-8.png'
-import Logo from '../Logo/Logo';
-const OurClients = ({hide}) => {
+const OurClients = () => {
   return (
-    <Sidebar>
-      <Logo />
-<div className="ourClients">
-<div className='content' onMouseEnter={()=>hide()}>
+    <>
+<div className="ourClients" id='ourClients'>
+<div className='content' >
 
         <h2 className='text-center'>
           Take a look at our clients
@@ -93,9 +89,8 @@ Be smart Let us do our job
 <button className='btn btn-anas d-block w-25'>Try us out</button>
 
 </div>
-<Footer />
 </div>
-    </Sidebar>
+    </>
   )
 }
 

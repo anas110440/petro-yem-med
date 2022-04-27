@@ -1,10 +1,7 @@
 .contactUs{
     background-color: var(--white2);
     width: 100%;
-    height: 100vh;
-    flex-wrap: wrap;
-    justify-content: center;
-    overflow-y: scroll;
+    min-height: 70vh;
     padding: 20px 0;
 }
 .contactUs .content{
@@ -36,7 +33,6 @@ margin: auto;
     display: flex;
     border-radius: 5px;
     box-shadow: var(--box-shadow);
-    margin-bottom: 2rem;
 
 }
 
@@ -171,9 +167,7 @@ width: 95%!important;
  
 }
 
-.contactUs .content .footer{
-    align-items: start;
-}
+
 
 @media (min-width:315px) and (max-width:576px) {
  
@@ -295,11 +289,14 @@ margin-bottom: 4rem;}
 
 
 @media (min-width:1400px) {
+    .contactUs{
+        min-height: 50vh;
+    }
     .contactUs .content .form{
     width: 85%;
     margin-left: auto;
     margin-right: auto;
-    height: 67vh;
+    min-height: 50vh;
     }
 .contactUs .content .form .contactInfo .bgc p{
     margin-bottom: 2rem;

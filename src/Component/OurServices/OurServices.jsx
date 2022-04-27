@@ -1,5 +1,4 @@
 import React from 'react'
-import Sidebar from './../Sidebar/Sidebar';
 import './style.css'
 import Img from "./image/1.png"
 import Img2 from "./image/2.png"
@@ -7,14 +6,11 @@ import Img3 from "./image/3.png"
 import Img4 from "./image/4.png"
 import Img5 from "./image/5.png"
 import Img6 from "./image/6.png"
-import Footer from './../Footer/Footer';
-import Logo from '../Logo/Logo';
-const OurServices = ({hide}) => {
+const OurServices = () => {
   return (
-    <Sidebar>
-      <Logo />
-      <div className="ourService">
-        <div className='content' onMouseEnter={()=>hide()}>
+    <>
+      <div className="ourService" id='ourService'>
+        <div className='content' >
 
         <h2 className='text-center'>
           OUR SERVICES
@@ -170,10 +166,9 @@ c. Construction Survey.
 
 
         
-        <Footer />
         </div>
       </div>
-    </Sidebar>
+    </>
   )
 }
 

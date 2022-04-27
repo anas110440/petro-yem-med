@@ -1,5 +1,4 @@
 import React from 'react'
-import Sidebar from './../Sidebar/Sidebar';
 import './style.css'
 import Img from './ourProjectImage/aref 191.JPG'
 import Img1 from './ourProjectImage/8.png'
@@ -19,16 +18,13 @@ import Img14 from './ourProjectImage/15.jpg'
 import Img15 from './ourProjectImage/16.jpg'
 import Img16 from './ourProjectImage/17.jpg'
 import Img17 from './ourProjectImage/18.jpg'
-import Footer from './../Footer/Footer';
-import Logo from './../Logo/Logo';
 
 
-const OurProject = ({hide}) => {
+const OurProject = () => {
   return (
-    <Sidebar>
-      <Logo />
-<div className="ourProject">
-<div className='content' onMouseEnter={()=>hide()}>
+    <>
+<div className="ourProject" id='ourProject'>
+<div className='content'>
 
         <h2 className='text-center'>
           OUR PROJECT
@@ -201,7 +197,6 @@ const OurProject = ({hide}) => {
 
 
 
-<Footer/>
 
 </div>
 
@@ -213,7 +208,7 @@ const OurProject = ({hide}) => {
 
 
         </div>
-    </Sidebar>
+    </>
   )
 }
 

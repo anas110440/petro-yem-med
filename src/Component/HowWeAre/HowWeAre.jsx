@@ -1,15 +1,12 @@
 import React from 'react'
-import Sidebar from './../Sidebar/Sidebar';
 import './style.css'
 import Img from './image/aref 221.JPG'
-import Logo from './../Logo/Logo';
-import Footer from './../Footer/Footer';
-const HowWeAre = ({hide}) => {
+
+const HowWeAre = () => {
   return (
-    <Sidebar>
-<Logo />
-    <div className="whoWeAre">
-      <div className='content'  onMouseEnter={()=>hide()}>
+    <>
+    <div className="whoWeAre" id='whoWeAre'>
+      <div className='content' >
 
         <h2 className='text-center'>
           Who We Are !
@@ -60,11 +57,12 @@ const HowWeAre = ({hide}) => {
 
 
 
-<Footer />
         </div>
     </div>
 
-    </Sidebar>
+
+
+    </>
   )
 }
 

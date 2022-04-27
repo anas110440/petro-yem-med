@@ -1,10 +1,7 @@
 .whoWeAre{
     background-color: var(--white2);
     width: 100%;
-    height: 100vh;
-    flex-wrap: wrap;
-    justify-content: center;
-    overflow-y: scroll;
+    min-height: 100vh;
     padding: 20px 0;
 }
 
@@ -25,7 +22,6 @@
 
 .whoWeAre .content .form{
     width: 100%;
-    min-height: 60vh;
     height: auto;
     display: flex;
     box-sizing: border-box;
@@ -108,7 +104,7 @@ margin: 0;
     width: 20%;
     z-index: 1000;
     bottom: 90%;
-    right: 3%;
+    right: 0%;
     fill:rgba(51, 51, 51, 0.451)
 }
 
@@ -186,6 +182,10 @@ padding-bottom: 2rem;
 
 
 @media (min-width:1400px) {
+    .whoWeAre .content{
+        margin-bottom: 0;
+        margin-top: 5rem;
+    }
 
 .whoWeAre .content .form .right .textf p{
    font-size: 22px;

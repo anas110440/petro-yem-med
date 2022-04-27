@@ -3,263 +3,156 @@
     width: 100%;
     min-height: 100vh;
     height: auto;
-    position: relative;
 }
 
 .homePage .content{
 display: block;
 width: 100%;
 margin:  auto;
-padding: 2rem;
-position: relative;
 height: 100vh;
+position: relative;
 
 
 }
 .homePage .content img{
-    width: 70%;
-    height: 60%;
+    width: 100%;
     object-fit: cover;
+    height: 100%;
 }
 
-.homePage .content img,
-.homePage .content .image,
+
 .homePage .content .rgba{
-position: absolute;
-    right:  50%;
-  bottom: 55%;
-    transform: translate(50%,45%);
-
-}
-
-.homePage .content .image{
-    height: 60%;
-    z-index: 1000;
-    object-fit: cover;
-}
-.homePage .content .rgba{
-z-index: 1001;
 background-color:rgba(98 171 219 / 40%);
+width: 100%;
+height: 100%;
+position: absolute;
+bottom: 0;
+right: 0;
 display: flex;
 align-items: center;
 justify-content: center;
 }
-.homePage .content .image,
-.homePage .content .rgba{
-width: 30%;
-height: 70%;
 
-
-}
 
 .homePage .content .rgba .box{
-    width: 95%;
-    background-color: rgba(98 171 219 / 100%);
-    padding: 2rem;
-    min-height: 70%;
+    width: 35%;
+    margin: auto;
     height: auto;
     text-align: center;
+    background-color: rgba(98 171 219 / 60%);
+    box-shadow: 0px 0px 6px 0px rgb(98 171 219);
+    padding: 2rem 1rem 2rem 1rem;
+border-radius: 8px;
+
+
+}
+.homePage .content .rgba .box h1{
+    text-transform: uppercase;
+    font-size: 6vh;
+    font-weight: 600;
+    color: var(--white);
 }
 
-.homePage .content .rgba .box h2,
-.homePage .content .rgba .box p{
-    font-weight: 500;color: var(--white);
-}
 .homePage .content .rgba .box p{
     font-size: 3vh;
+    font-weight: 500;color: var(--white);
+    width: 80%;
+    margin: 1rem auto;
+
 }
 .homePage .content .rgba .box hr{
-        width: 25%;
-    height: 3px;
+    width: 10%;
+    height:5px;
     background: var(--yellow);
-    border-radius: 1px;
+    border-radius: 7px;
     opacity: 1;
-    margin: 10px auto;
+    margin: 1rem auto 0 auto;
 }
 
 .homePage .content .rgba .box button{
-    margin-top: 1rem;
+    margin-top: 2rem;
     background-color: var(--white2)!important;
     color: var(--yellow)!important;
+    width: auto;
+    display: block;
+    text-decoration: none;
+    margin-inline: auto;
+    min-width: 30%;
+    font-size: 18px;
+    font-weight:500;
 }
-
-.homePage .scroll{
-   width: 22px;
-   height: 45px;
-   border: 1px solid var(--gray4);
-   border-radius: 20px;
-   display: flex; 
-   position: absolute;
-   left: 50%;
-   bottom: 14%;
-   transform: translateX(-50%);
-   cursor: pointer;
-   z-index: 111111111111111;
-
-}
-
-.homePage .scroll .mouse{
-    width: 12px;
-    height: 12px;
-    background-color: var(--gray3);
-    border-radius: 50%;
-    position: absolute;
-    left: 50%;
-    top: 10%;
-    transform: translateX(-50%);
-    transition: all .4s ease;
+.homePage .content .rgba .box  a{
+text-decoration: none;
 }
 
 
-
-.homePage .scroll:hover .mouse{
-    top: 65%;
-
-}
-
-.homePage .footer {
-height: 95%;
-align-items: end;
-}
 
 
 @media only screen and (max-width:600px) and (min-width: 315px) { 
-.homePage{
-    height: 100vh;
-    }
-.homePage .content{
-width: 100%;
-
-}
 
 .homePage .content img{
-    width: 90%;
-    height: 25vh;
-    right: 50%;
-    bottom: 60%;
-    transform: translate(50%,40%);
+    object-fit: cover;
+    height: 100%;
 }
-
-
-.homePage .content .image,
-.homePage .content .rgba{
-    width: 52%;
-    height: 35vh;
-    right: 50%;
-    bottom: 60%;
-    transform: translate(50%,40%);    
-}
-
 
 .homePage .content .rgba .box{
-    width: 90%;
-    padding: .8rem;
-    overflow: hidden;
-    height: auto;
-    text-align: center;
+width: 60%;
+
 }
 
-.homePage .content .rgba .box h2{
-    font-size: 15px;
+.homePage .content .rgba .box h1{
+    font-size: 19px;
 }
+.homePage .content .rgba .box hr{
+width: 25%;
+height: 3px;
+}
+
 .homePage .content .rgba .box p{
     font-size: 13px!important;
-    font-weight: 300;
+    font-weight: 400;
     width: 100%;
 }
 .homePage .content .rgba .box button{
     font-size: 11px!important;
     font-weight: 300!important;
-    width: 75%;
+    width: 50%;
     padding: 5px;
-    margin-top: 0;
 }
 
-.homePage .scroll{
-     width: 18px;
-    height: 34px;
-bottom: 30%;
-z-index: 1;
-}
-.homePage .scroll .mouse {
-    height: 10px;
-    width: 10px;
-   
-}
 
-.homePage .footer {
-    position: absolute;
-    bottom: 5%;
-    width: 80%;
-
-}
-
-.homePage .footer p{
-font-size: 12px;
-text-align: justify;
-}
-
-.homePage .footer .icon {
-display: flex;
-justify-content: space-evenly;
-float: unset;
-margin: 0;
-margin-top: 5px;
-}
-.homePage .footer .icon svg{
-    width: 20px;
-}
 
  }
 
 @media only screen and (max-width:768px) and (min-width: 601px) { 
 .homePage .content img{
-    width: 70%;
-    height: 30vh;
-    right: 50%;
-    bottom: 60%;
-    transform: translate(50%,40%);
+    object-fit: cover;
+    height: 100%;
 }
 
+.homePage .content .rgba .box{
+width: 50%;
 
-.homePage .content .image,
-.homePage .content .rgba{
-    width: 35%;
-    height: 40vh;
-    right: 50%;
-    bottom: 60%;
-    transform: translate(50%,40%);    
 }
-.homePage .content .rgba .box h2{
-    font-size: 15px;
+
+.homePage .content .rgba .box h1{
+    font-size: 25px;
 }
+.homePage .content .rgba .box hr{
+width: 25%;
+height: 5px;
+}
+
 .homePage .content .rgba .box p{
-    font-size: 13px!important;
-    font-weight: 300;
-    width: 100%;
+    font-size: 18px!important;
+    font-weight: 400;
+    width: 80%;
 }
 .homePage .content .rgba .box button{
-    font-size: 11px!important;
-    font-weight: 300!important;
-    width: 80%;
+    font-size: 16px!important;
+    font-weight: 400!important;
+    width: 50%;
     padding: 5px;
-    margin-top: 0;
-}
-
-.homePage .footer p{
-font-size: 15px;
-text-align: justify;
-}
-
-.homePage .footer .icon {
-display: flex;
-justify-content: space-evenly;
-float: unset;
-margin: 0;
-margin-top: 5px;
-}
-.homePage .footer .icon svg{
-    width: 30px;
 }
 
 
@@ -267,76 +160,74 @@ margin-top: 5px;
 
 @media only screen and (max-width:922px) and (min-width: 769px) { 
 .homePage .content img{
-    width: 90%;
-    height: 30vh;
-    right: 50%;
-    bottom: 60%;
-    transform: translate(50%,40%);
+    object-fit: cover;
+    height: 100%;
 }
 
+.homePage .content .rgba .box{
+width: 50%;
 
-.homePage .content .image,
-.homePage .content .rgba{
-    width: 40%;
-    height: 40vh;
-    right: 50%;
-    bottom: 59%;
-    transform: translate(50%,41%);    
 }
 
+.homePage .content .rgba .box h1{
+    font-size: 25px;
+}
+.homePage .content .rgba .box hr{
+width: 15%;
+height: 5px;
+}
+
+.homePage .content .rgba .box p{
+    font-size: 18px!important;
+    font-weight: 400;
+    width: 80%;
+}
+.homePage .content .rgba .box button{
+    font-size: 16px!important;
+    font-weight: 400!important;
+    width: 50%;
+    padding: 5px;
+}
 
  }
 
 @media only screen and (max-width:1200px) and (min-width: 923px) { 
-.homePage .content img{
-    width: 90%;
-    height: 30vh;
-    right: 50%;
-    bottom: 60%;
-    transform: translate(50%,40%);
+    .homePage .content img{
+    object-fit: cover;
+    height: 100%;
 }
 
-
-.homePage .content .image,
-.homePage .content .rgba{
-    width: 40%;
-    height: 40vh;
-    right: 50%;
-    bottom: 59%;
-    transform: translate(50%,41%);    
-}
- }
-@media only screen and  (min-width: 1400px) { 
 .homePage .content .rgba .box{
-text-align: center;
-padding: 4rem 2rem;
-min-height: auto;
+width: 35%;
+
 }
 
-.homePage .content .rgba .box h2{
-    font-size: 5vh!important;
-    font-weight: 500;
-    width: 100%;
-    margin-bottom: 1rem;
+.homePage .content .rgba .box h1{
+    font-size: 25px;
 }
 .homePage .content .rgba .box hr{
-    height: 5px;
-    margin-bottom: 1rem;
+width: 15%;
+height: 5px;
 }
 
-    .homePage .content .rgba .box p{
-    font-size: 4vh!important;
+.homePage .content .rgba .box p{
+    font-size: 18px!important;
     font-weight: 400;
-    text-align: center;
+    width: 80%;
 }
-
-
-    .homePage .content .rgba .box button{
-    font-size: 3vh!important;
-    font-weight: 400;
+.homePage .content .rgba .box button{
+    font-size: 16px!important;
+    font-weight: 400!important;
     width: 50%;
-    padding: .5rem;
-    text-decoration: none;
+    padding: 5px;
+}
+
+}
+ 
+@media only screen and  (min-width: 1400px) { 
+    .homePage .content img{
+    object-fit: cover;
+    height: 100%;
 }
 
 }

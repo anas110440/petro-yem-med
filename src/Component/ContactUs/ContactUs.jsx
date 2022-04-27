@@ -1,14 +1,11 @@
 import React from 'react'
-import Sidebar from './../Sidebar/Sidebar';
 import './style.css'
 import Footer from './../Footer/Footer';
-import Logo from './../Logo/Logo';
-const ContactUs = ({hide}) => {
+const ContactUs = () => {
   return (
-    <Sidebar>
-      <Logo />
-      <div className="contactUs">
-        <div className="content" onMouseEnter={()=>hide()}>
+    <>
+      <div className="contactUs" id='contactUs'>
+        <div className="content" >
           <h2 className='text-center'>
           CONTACT US
 
@@ -86,11 +83,10 @@ const ContactUs = ({hide}) => {
 
 
           </div>
-<Footer />
         </div>
 
       </div>
-    </Sidebar>
+    </>
   )
 }
 

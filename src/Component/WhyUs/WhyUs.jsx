@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Sidebar from './../Sidebar/Sidebar';
 import './style.css'
 import Img1 from './img/1.jpg'
 import Img2 from './img/2.png'
@@ -7,10 +6,8 @@ import Img3 from './img/3.jpg'
 import Img4 from './img/4.png'
 import Img5 from './img/5.jpg'
 import Img6 from './img/6.png'
-import Footer from '../Footer/Footer';
-import Logo from '../Logo/Logo';
-const WhyUs = ({hide}) => {
-  const [info1 , setInfo1] = useState(true)
+const WhyUs = () => {
+  const [info1 , setInfo1] = useState(false)
   const [info2 , setInfo2] = useState(true)
   const [info3 , setInfo3] = useState(true)
 
@@ -31,10 +28,9 @@ const pic3 = ()=>{
 }
 
   return (
-    <Sidebar>
-      <Logo />
-<div className="whyUs">
-        <div className='content' onMouseEnter={()=>hide()}>
+    <>
+<div className="whyUs" id='whyUs'>
+        <div className='content'>
 
         <h2 className='text-center'>
           WHY US !
@@ -120,7 +116,7 @@ Healt &amp; Safety
 <img src={Img2} alt="" className='icon' />
 </div>
 </div>
-<Footer />
+
 
 </div>
 
@@ -147,7 +143,7 @@ Environment
 <img src={Img4} alt="" className='icon' />
 </div>
 </div>
-<Footer />
+
 
 </div>
 
@@ -175,7 +171,7 @@ Quality
 <img src={Img6} alt="" className='icon' />
 </div>
 </div>
-<Footer />
+
 
 </div>
 
@@ -185,7 +181,7 @@ Quality
 
 </div>
 </div>
-    </Sidebar>
+    </>
   )
 }
 

@@ -1,35 +1,31 @@
 import React from 'react'
-import Sidebar from './../Sidebar/Sidebar';
 import './style.css'
 import IMG from './image/DSC01386.jpg'
 import { Link } from 'react-router-dom';
-import Logo from '../Logo/Logo';
-import Footer from './../Footer/Footer';
+
 
 const Home = ({hide}) => {
   return (
-  <Sidebar>
-    
-      <Logo />
+    <Link to='landing-page'>
+
     <div className='homePage'>
       <div className="content">
 
       <img src={IMG} alt="" onMouseEnter={()=>hide()} />
 
-      <img src={IMG} alt="" className='image' />
 
       <div className='rgba'>
 
 <div className="box">
 
-  <h2>We are ready</h2>
+<h1>We are ready</h1>
 
 <hr />
   <p className='lead'>
 
 to start your project, Contact us now !
   </p>
-<Link to='/contactus'>
+<Link to='/landing-page'>
 
   <button className='btn btn-anas'>
 Get a Quote
@@ -38,18 +34,12 @@ Get a Quote
 </div>
 
       </div>
-<Footer />
       </div>
-    <Link to="/how-we-are">
-      <div className="scroll">
-        <div className='mouse'></div>
 
-      </div>
-    </Link>
 
 
     </div>
-  </Sidebar>    
+    </Link>
   )
 }
 
