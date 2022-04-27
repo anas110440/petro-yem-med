@@ -221,8 +221,12 @@ margin-bottom: .5rem;}
  
 }
 
-
-
+.contactUs .content  .footer{
+    margin-bottom: 2rem;
+}
+.contactUs .content  .footer p{
+    margin-bottom: 0;
+}
 
 
 

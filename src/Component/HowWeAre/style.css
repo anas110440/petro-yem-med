@@ -123,6 +123,7 @@ margin: 0;
   margin-inline: auto;
 
 }
+ .whoWeAre .content .footer{margin-bottom: 3rem;}
 .whoWeAre .content .form .right .img .pos {
 display: none;
 }
