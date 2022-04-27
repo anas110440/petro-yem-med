@@ -47,8 +47,8 @@ margin: auto;
 
 .ourService .content .boxes .box{
     width: 30%;
-    height: 295px;
-    margin: 0 20px  ;
+    min-height: 295px;
+    margin: 0 10px  ;
     position: relative;
     overflow: hidden;
     cursor: pointer;
@@ -144,7 +144,7 @@ font-size: 13px;
 
 
 
-@media (min-width:1200px) {
+@media (min-width:1400px) {
 .ourService .content .boxes .box {
 margin: 0 10px;
 height: 360px;
