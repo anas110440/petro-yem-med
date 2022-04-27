@@ -108,9 +108,7 @@ PETRO YEM MED For Engineering , Construction &amp; Oil Field Services are proud 
 <div className="box">
 <img src={Img1} alt="" />
 <div className="rgba">
-<p>
-Healt &amp; Safety
-</p>
+
 </div>
 
 <img src={Img2} alt="" className='icon' />
@@ -135,9 +133,7 @@ PETRO YEM MED For Engineering,Construction &amp; Oil Field Services always ensur
 <div className="box">
 <img src={Img3} alt="" />
 <div className="rgba">
-<p>
-Environment
-</p>
+
 </div>
 
 <img src={Img4} alt="" className='icon' />
@@ -163,9 +159,7 @@ All our work is carried out under international, accredited ISO9001 standards.
 <div className="box">
 <img src={Img5} alt="" />
 <div className="rgba">
-<p>
-Quality
-</p>
+
 </div>
 
 <img src={Img6} alt="" className='icon' />
