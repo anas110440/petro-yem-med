@@ -109,9 +109,11 @@ display: block;
     width: 100%;
     height: auto;
     margin-bottom: 10px;
+    min-height: auto;
     }
 .ourService .content p{
-    margin-bottom: 2rem;
+    margin:2rem auto;
+    width: 90%;
 }
     .ourService .content .boxes .box .overlay .text {
 font-size: 13px;
