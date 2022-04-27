@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Home = ({hide}) => {
   return (
-    <Link to='landing-page'>
+    <Link to='/landing-page'>
 
     <div className='homePage'>
       <div className="content">
