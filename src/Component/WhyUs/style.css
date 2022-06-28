@@ -106,9 +106,9 @@ padding: 10.5rem 0 0 0 ;
     text-align: justify;
      display: block;
     font-weight: 400;
-    font-size: 18px;
-    color: var(--white);
-        margin-top: 1.8rem;
+    font-size: 16px;
+    color: #333;
+    margin-top: 1.8rem;
 
     }
 
@@ -152,7 +152,7 @@ padding: 5rem 0 0 0 ;
 
 }
 .whyUs .content .info .pic .box .rgba p{
-    color: #444;
+    color: #3e4549;
     font-weight: 500;
     font-size: 20px;
 
@@ -314,7 +314,6 @@ display: flex;
 .whyUs .content .info .texts p{
     font-size: 20px;
     font-weight: 400;
-    line-break: anywhere;
 }
 
 }

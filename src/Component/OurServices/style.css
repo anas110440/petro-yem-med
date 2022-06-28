@@ -24,15 +24,10 @@ margin: auto;
     border-radius: 1px;
     opacity: 1;
     margin: 10px auto;
-}
-.ourService .content p{
-    display: block;
-    font-weight: normal;
-    font-size: 18px;
-    color: var(--gray3);
-    text-align: center;
     margin-bottom: 3rem;
+
 }
+
 
 
 .ourService .content .boxes {
@@ -48,6 +43,8 @@ margin: auto;
     position: relative;
     overflow: hidden;
     cursor: pointer;
+    margin-bottom: 3rem;
+
 }
 .ourService .content .boxes .box img{
 width: 100%;
@@ -56,35 +53,23 @@ height: 130px;
 
 .ourService .content .boxes .box .overlay {
 width: 100%;
-opacity: 1;
-transition: .5s ease;
 background-color:rgba(98 171 219 / 100%);
 overflow:hidden;
-height:0;
--webkit-transition: all .2s ease;
--moz-transition: all .2s ease;
-transition: all .2s ease-in-out;
-
+margin-bottom: 1rem;
+height: 250px;
 }
 
 
-.ourService .content .boxes .box:hover .overlay{
-     min-height:100px;
-     height: auto;
-padding: 1rem 1rem 1rem 1rem ;
-display: block;
-
-}
 
 
 
 .ourService .content .boxes .box .overlay .text {
-  color: white;
+  color: black;
   font-size: 15px;
   font-weight: 400;
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 1rem;
   text-transform: lowercase;
   text-align: left;
 
@@ -148,7 +133,6 @@ font-size: 13px;
 @media (min-width:1400px) {
 .ourService .content .boxes .box {
 margin: 0 10px;
-height: 360px;
 }
 
 

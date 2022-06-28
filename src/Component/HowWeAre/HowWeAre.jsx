@@ -29,7 +29,6 @@ const HowWeAre = () => {
   <div className="right">
     <div className="img">
       <img src={Img} alt="" />
-      <div className="pos"></div>
     </div>
     <div className="textf">
      <p> We have a full-fledged workshop facility for Construction, Survey and Supply. With our expertise, we provide a wide range of engineering, Construction and project management skills to serve our clients in developing new facilities, as well as effectively applying efficient technologies to upgrade and expand the existing facilities.</p>

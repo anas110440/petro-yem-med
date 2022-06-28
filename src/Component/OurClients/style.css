@@ -18,15 +18,8 @@ margin: auto;
     color: var(--gray1);
     display: block;
     font-weight: 500;
-}
-
-.ourClients .content p{
-    display: block;
-    font-weight: normal;
-    font-size: 18px;
-    color: var(--gray3);
-    text-align: center;
     margin-bottom: 30px;
+
 }
 
 .ourClients .boxes{
@@ -57,13 +50,13 @@ margin-top: 2rem;
     margin: auto;
     margin-top: 2%;
 }
-.ourClients .boxes .box .img1 {width: 40%;}
-.ourClients .boxes .box .img2 {width: 35%; margin-top: 5%;}
-.ourClients .boxes .box .img3 {width: 33%;}
-.ourClients .boxes .box .img4 {width: 50%; height: 50%; margin-top: 10%;}
-.ourClients .boxes .box .img5 {width: 50%; margin-top: 2%;}
-.ourClients .boxes .box .img6 {width: 35%;}
-.ourClients .boxes .box .img7 {width: 25%;}
+.ourClients .boxes .box .img1 {width: 45%;}
+.ourClients .boxes .box .img2 {width: 40%; margin-top: 5%;}
+.ourClients .boxes .box .img3 {width: 38%;}
+.ourClients .boxes .box .img4 {width: 55%; height: 55%; margin-top: 10%;}
+.ourClients .boxes .box .img5 {width: 55%; margin-top: 2%;}
+.ourClients .boxes .box .img6 {width: 40%;}
+.ourClients .boxes .box .img7 {width: 28%;}
 
 .ourClients .boxes .box .overlay {
   position: absolute;

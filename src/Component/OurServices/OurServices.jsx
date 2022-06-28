@@ -20,9 +20,7 @@ const OurServices = () => {
 
         <hr />
 
-        <p className='lead'>
-We did a great job with companies. You can be next to work with!
-        </p>
+     
 
 
 
@@ -96,17 +94,7 @@ b. Process and Piping Design.
   <div className="overlay">
   <p className="text">
     
-    Our company provides the following services for Oil &amp; Gas projects:
-    <br />
-    <br />
-
-a. Topographical Survey.
-    <br />
-
-b. Well location &amp; Piping Servey.
-    <br />
-
-c. Construction Survey.
+  OUR COMPANY CAN SUPPLY HIGHLY QUALIFIED PROJECT MANAGERS, CONSTRUCTION MANAGEMENT TEAM ,SUPERVISORS AND IN ALL THE CONSTRUCTION DISCIPLINES . 
   </p>
   </div>
   </div>  
@@ -138,16 +126,23 @@ c. Instrumentation materials.
   <div className="overlay">
   <p className="text">
     
-    Our company provides the following services for Oil &amp; Gas projects:
+
+OUR COMPANY CAN SUPPLY SKILLED MANPOWER FROM THE CONSTRUCTION PROJECT LIKE : 
 <br />
 <br />
-a. Topographical Survey.
+A- CIVIL MANPOWER 
 <br />
 
-b. Well location &amp; Piping Servey.
+B- MECHANICAL AND PIPELINE FABRICATORS 
 <br />
 
-c. Construction Survey.
+C-WELDERS AND HELPERS 
+<br />
+
+D-ELECTRICAL AND INSTRUMENT TECHNICIANS 
+<br />
+
+E-PAINTERS AND HELPERS
   </p>
   </div>
   </div>  

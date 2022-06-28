@@ -41,7 +41,7 @@ const pic3 = ()=>{
         <hr />
 
         <p className='lead'>
-          At PETRO YEM MED. Our pirpose is to help our clients to thrive-our clients.
+          At PETRO YEM MED. Our purpose is to help our clients.
         </p>
 
 

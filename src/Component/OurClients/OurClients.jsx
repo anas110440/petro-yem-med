@@ -17,9 +17,7 @@ const OurClients = () => {
           Take a look at our clients
         </h2>
 
-        <p className='lead'>
-          We did a great job with these companies. You can be next to work with !
-        </p>
+      
         
 <div className="boxes">
   <div className="box">
@@ -82,11 +80,6 @@ const OurClients = () => {
   </div>
 </div>
 
-<p className='lead'>
-Be smart Let us do our job
-</p>
-
-<button className='btn btn-anas d-block w-25'>Try us out</button>
 
 </div>
 </div>

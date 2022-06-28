@@ -32,9 +32,7 @@ const OurProject = () => {
 
         <hr />
 
-        <p className='lead'>
-          Have you decided to a project with us?
-        </p>
+      
 
 <div className="boxes">
 
@@ -129,13 +127,7 @@ const OurProject = () => {
   </div>
 
 
-      <div className="box">
-<img src={Img10} alt="" className='img1' />
 
-  <div className="overlay">
-  <div className="text">CPU ACCOMMODATION BUILDING UNIT-A</div>
-  </div>
-  </div>
 
 
       <div className="box">
@@ -154,13 +146,7 @@ const OurProject = () => {
   </div>
   </div>
 
-       <div className="box">
-<img src={Img13} alt="" className='img1' />
 
-  <div className="overlay">
-  <div className="text">MAINTENANCE WAREHOUSE STRUCTURE</div>
-  </div>
-  </div>
 
        <div className="box">
 <img src={Img14} alt="" className='img1' />

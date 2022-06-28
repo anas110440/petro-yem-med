@@ -68,9 +68,8 @@ width: 12%;
 .ourSupplies .rgba .box  span
 
 {
-color: #fff;
-text-align: justify;
-line-break: anywhere;
+color: #000;
+
 }
 .ourSupplies .rgba .box  hr{
     width: 7%;
@@ -82,11 +81,10 @@ line-break: anywhere;
 
 
 .ourSupplies .rgba .box  span{
-    font-size: 17px;
+    font-size: 16px;
     display: block;
     margin-bottom: 10px;
     font-weight: 400;
-    line-break: anywhere;
 
 }
 
