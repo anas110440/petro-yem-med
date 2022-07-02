@@ -33,7 +33,6 @@ const OurServices = () => {
   <div className="overlay">
   <p className="text">
 Our company provides the following services for projects:
-    <br />
 <br />
 a. Topographical Survey.
 <br />
@@ -56,7 +55,6 @@ c. Construction Survey.
   <p className="text">
     construction industry and extend our services to include:
     <br />
-    <br />
 a. Mechanical and Civil construction projects.
     <br />
 
@@ -76,7 +74,6 @@ c. Electrical and instrumentation project execution.
   <div className="overlay">
   <p className="text">
     Our company provides the following engineering services:
-    <br />
     <br />
 
 a. Civil, Mechanical and Electrical Design.
@@ -107,7 +104,6 @@ b. Process and Piping Design.
   <p className="text">
 Our company is specialized in the supply of the below materials required for the Oil and Gas industry:
 <br />
-<br />
 a. Valves, Pipes and fittings.
 <br />
 
@@ -127,8 +123,7 @@ c. Instrumentation materials.
   <p className="text">
     
 
-OUR COMPANY CAN SUPPLY SKILLED MANPOWER FROM THE CONSTRUCTION PROJECT LIKE : 
-<br />
+ OUR COMPANY CAN SUPPLY SKILLED MANPOWER FROM THE CONSTRUCTION PROJECT LIKE : 
 <br />
 A- CIVIL MANPOWER 
 <br />
