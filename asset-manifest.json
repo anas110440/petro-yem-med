@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/petro-yem-med/static/css/main.576c18b6.css",
+    "main.css": "/petro-yem-med/static/css/main.89efe43a.css",
     "main.js": "/petro-yem-med/static/js/main.32594a8a.js",
     "static/js/787.c93877de.chunk.js": "/petro-yem-med/static/js/787.c93877de.chunk.js",
     "static/media/DSC00508.jpg": "/petro-yem-med/static/media/DSC00508.922054a69b5ae145241a.jpg",
@@ -54,12 +54,12 @@
     "static/media/fa-regular-400.woff": "/petro-yem-med/static/media/fa-regular-400.a1ea67a1abcad62a287b.woff",
     "static/media/fa-regular-400.woff2": "/petro-yem-med/static/media/fa-regular-400.e326d6b66be113bf743b.woff2",
     "index.html": "/petro-yem-med/index.html",
-    "main.576c18b6.css.map": "/petro-yem-med/static/css/main.576c18b6.css.map",
+    "main.89efe43a.css.map": "/petro-yem-med/static/css/main.89efe43a.css.map",
     "main.32594a8a.js.map": "/petro-yem-med/static/js/main.32594a8a.js.map",
     "787.c93877de.chunk.js.map": "/petro-yem-med/static/js/787.c93877de.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.576c18b6.css",
+    "static/css/main.89efe43a.css",
     "static/js/main.32594a8a.js"
   ]
 }
