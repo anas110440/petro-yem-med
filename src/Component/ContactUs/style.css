@@ -34,7 +34,7 @@ margin: auto;
     display: flex;
     border-radius: 5px;
     box-shadow: var(--box-shadow);
-
+    margin-bottom: 3rem;
 }
 
 .contactUs .content .form .contactInfo{
