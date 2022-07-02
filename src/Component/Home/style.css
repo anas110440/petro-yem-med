@@ -47,13 +47,10 @@ border-radius: 8px;
 }
 .homePage .content .rgba .box h1{
     text-transform: uppercase;
-    font-size: 6vh;
-    font-weight: 600;
     color: var(--white);
 }
 
 .homePage .content .rgba .box p{
-    font-size: 3vh;
     font-weight: 500;color: var(--white);
     width: 80%;
     margin: 1rem auto;
