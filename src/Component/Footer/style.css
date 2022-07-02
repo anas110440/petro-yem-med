@@ -92,13 +92,14 @@ margin-top: 5px;
 
 @media (min-width:1400px) {
 .footer{
-    min-height: 20vh;
     display: flex;
     align-items: end;
+    margin-top: 0;
+    margin-top: 2rem;
 }
 .footer p{
-    font-size: 22px!important;
-    margin-bottom: 2rem;
+    font-size: 20px!important;
+    margin-bottom: 1rem;
 
 }
 

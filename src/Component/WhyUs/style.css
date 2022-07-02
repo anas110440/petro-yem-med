@@ -306,12 +306,11 @@ display: flex;
 .whyUs .content .boxes .box,
 .whyUs .content .boxes .box .rgba
 {
-    height: 200px;
 }
 
 
 .whyUs .content .info .texts p{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
 }
 

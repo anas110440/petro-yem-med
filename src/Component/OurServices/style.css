@@ -131,15 +131,12 @@ font-size: 13px;
 
 @media (min-width:1400px) {
 .ourService .content .boxes .box {
-margin: 0 10px;
+margin-bottom: 2rem;
 }
 
-
-
-.ourService .content .boxes .box img{
-    height: auto;
+.ourService .content .boxes .box .overlay{
+    height: 200px;
 }
-
 
 
 
